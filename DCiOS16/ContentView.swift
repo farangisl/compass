@@ -8,14 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showMenu = false
+    @State var selectedMenu: Menu = .compass
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            switch selectedMenu {
+            case .compass:
+                MessageView()
+            case .card:
+                Text("Card")
+            case .radial:
+                Text("Radial")
+            case .actionbutton:
+                Text("Action Button")
+            case .gooey:
+                Text("Gooey")
+            case .charts:
+                Text("Charts")
+            case .halfsheet:
+                Text("Half Sheet")
+            }
+            
+            Button("Show Menu") {
+                showMenu = true
+            }
+            .sheet(isPresented: $showMenu) {
+                MenuView(selectedMenu: $selectedMenu)
+                    .presentationDetents([.medium, .large])
+            }
         }
-        .padding()
     }
 }
 
