@@ -28,13 +28,13 @@ struct ContentView: View {
             
             switch selectedMenu {
             case .compass:
-                MessageView()
+                CompassView()
             case .card:
-                Text("Card")
+                CardReflectionView()
             case .radial:
-                Text("Radial")
+                RadialLayoutView()
             case .actionbutton:
-                Text("Action Button")
+                ActionButtonView()
             case .gooey:
                 Text("Gooey")
             case .charts:
@@ -43,6 +43,7 @@ struct ContentView: View {
                 MenuView()
             }
         }
+        .overlay(MessageView())
         .onTapGesture {}
         .gesture(longPress)
         .sheet(isPresented: $showMenu) {

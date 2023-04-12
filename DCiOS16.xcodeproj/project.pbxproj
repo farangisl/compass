@@ -11,6 +11,11 @@
 		6D00CC8229DD266500060367 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D00CC8129DD266500060367 /* ContentView.swift */; };
 		6D00CC8429DD266700060367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D00CC8329DD266700060367 /* Assets.xcassets */; };
 		6D00CC8729DD266700060367 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D00CC8629DD266700060367 /* Preview Assets.xcassets */; };
+		6D30152229E52AA700A172E1 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30152129E52AA700A172E1 /* MotionManager.swift */; };
+		6D30152429E55ECF00A172E1 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30152329E55ECF00A172E1 /* CompassView.swift */; };
+		6D30152629E576F100A172E1 /* CircleLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30152529E576F100A172E1 /* CircleLabelView.swift */; };
+		6D58194429E667A7008B092B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58194329E667A7008B092B /* LocationManager.swift */; };
+		6D58194629E6806C008B092B /* CustomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58194529E6806C008B092B /* CustomSheet.swift */; };
 		6D80DAC329DECADF00F69787 /* RadialLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D80DAC229DECADF00F69787 /* RadialLayoutView.swift */; };
 		6D80DAC529DFD0E300F69787 /* CardReflectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D80DAC429DFD0E300F69787 /* CardReflectionView.swift */; };
 		6DBF497F29DD74D6001EC0CF /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBF497E29DD74D6001EC0CF /* NavigationStackView.swift */; };
@@ -21,6 +26,7 @@
 		6DBF498929DE818B001EC0CF /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBF498829DE818B001EC0CF /* GridView.swift */; };
 		6DBF498B29DE900A001EC0CF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBF498A29DE900A001EC0CF /* CardView.swift */; };
 		6DBF498D29DEB876001EC0CF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBF498C29DEB876001EC0CF /* DetailView.swift */; };
+		6DD2327E29E3E52A00D74674 /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD2327D29E3E52A00D74674 /* ActionButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +35,11 @@
 		6D00CC8129DD266500060367 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D00CC8329DD266700060367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D00CC8629DD266700060367 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D30152129E52AA700A172E1 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		6D30152329E55ECF00A172E1 /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		6D30152529E576F100A172E1 /* CircleLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLabelView.swift; sourceTree = "<group>"; };
+		6D58194329E667A7008B092B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6D58194529E6806C008B092B /* CustomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheet.swift; sourceTree = "<group>"; };
 		6D80DAC229DECADF00F69787 /* RadialLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialLayoutView.swift; sourceTree = "<group>"; };
 		6D80DAC429DFD0E300F69787 /* CardReflectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardReflectionView.swift; sourceTree = "<group>"; };
 		6DBF497E29DD74D6001EC0CF /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
@@ -39,6 +50,7 @@
 		6DBF498829DE818B001EC0CF /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		6DBF498A29DE900A001EC0CF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		6DBF498C29DEB876001EC0CF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		6DD2327D29E3E52A00D74674 /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +87,17 @@
 				6D00CC8129DD266500060367 /* ContentView.swift */,
 				6D80DAC229DECADF00F69787 /* RadialLayoutView.swift */,
 				6D80DAC429DFD0E300F69787 /* CardReflectionView.swift */,
+				6DD2327D29E3E52A00D74674 /* ActionButtonView.swift */,
+				6D30152129E52AA700A172E1 /* MotionManager.swift */,
 				6DBF498629DE79BF001EC0CF /* ChartView.swift */,
 				6DBF498829DE818B001EC0CF /* GridView.swift */,
 				6DBF498A29DE900A001EC0CF /* CardView.swift */,
 				6DBF498C29DEB876001EC0CF /* DetailView.swift */,
 				6DBF498429DD8520001EC0CF /* MenuView.swift */,
+				6D30152329E55ECF00A172E1 /* CompassView.swift */,
+				6D58194529E6806C008B092B /* CustomSheet.swift */,
+				6D58194329E667A7008B092B /* LocationManager.swift */,
+				6D30152529E576F100A172E1 /* CircleLabelView.swift */,
 				6DBF498229DD8300001EC0CF /* MessageView.swift */,
 				6DBF497E29DD74D6001EC0CF /* NavigationStackView.swift */,
 				6DBF498029DD77A4001EC0CF /* Data.swift */,
@@ -168,15 +186,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D00CC8229DD266500060367 /* ContentView.swift in Sources */,
+				6D58194429E667A7008B092B /* LocationManager.swift in Sources */,
+				6D58194629E6806C008B092B /* CustomSheet.swift in Sources */,
+				6D30152229E52AA700A172E1 /* MotionManager.swift in Sources */,
 				6DBF498B29DE900A001EC0CF /* CardView.swift in Sources */,
 				6DBF498529DD8520001EC0CF /* MenuView.swift in Sources */,
 				6D80DAC329DECADF00F69787 /* RadialLayoutView.swift in Sources */,
 				6DBF498D29DEB876001EC0CF /* DetailView.swift in Sources */,
 				6DBF498929DE818B001EC0CF /* GridView.swift in Sources */,
 				6DBF497F29DD74D6001EC0CF /* NavigationStackView.swift in Sources */,
+				6DD2327E29E3E52A00D74674 /* ActionButtonView.swift in Sources */,
 				6DBF498729DE79BF001EC0CF /* ChartView.swift in Sources */,
 				6D00CC8029DD266500060367 /* DCiOS16App.swift in Sources */,
 				6DBF498129DD77A4001EC0CF /* Data.swift in Sources */,
+				6D30152429E55ECF00A172E1 /* CompassView.swift in Sources */,
+				6D30152629E576F100A172E1 /* CircleLabelView.swift in Sources */,
 				6DBF498329DD8300001EC0CF /* MessageView.swift in Sources */,
 				6D80DAC529DFD0E300F69787 /* CardReflectionView.swift in Sources */,
 			);
@@ -311,6 +335,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Design Compass";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use longitude and latitude for Compass App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +367,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Design Compass";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use longitude and latitude for Compass App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
